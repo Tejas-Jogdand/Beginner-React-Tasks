@@ -1,0 +1,34 @@
+.app-container {
+  text-align: center;
+  padding: 3rem;
+  transition: all 0.3s ease-in-out;
+  min-height: 100vh;
+}
+
+/* Light Theme */
+.light {
+  background-color: #ffffff;
+  color: #222222;
+}
+
+/* Dark Theme */
+.dark {
+  background-color: #121212;
+  color: #eeeeee;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
