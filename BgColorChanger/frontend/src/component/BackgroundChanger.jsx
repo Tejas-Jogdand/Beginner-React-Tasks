@@ -6,7 +6,6 @@ export const BackgroundChanger = () => {
   const colors = ['Red', 'Yellow', 'Black', 'Purple', 'Green', 'Blue'];
 
   function ChangeHandler(color) {
- 
     setCurrentColor(color);
   }
 
